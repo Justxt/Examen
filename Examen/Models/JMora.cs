@@ -15,5 +15,7 @@ namespace ExamenProgreso1.Models
         [Required]
         public DateTime? FechaNacimiento { get; set; }
 
+
+        public Carrera carrera { get; set; }
     }
 }
